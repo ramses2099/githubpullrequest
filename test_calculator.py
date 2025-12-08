@@ -18,7 +18,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(4, 4), 8)
 
     def test_two_string(self):
-        self.assertEqual("Holla", "Holla")
+        self.assertEqual("Hollas", "Hollas")
 
 if __name__ == '__main__':
     unittest.main()
