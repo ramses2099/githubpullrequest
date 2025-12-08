@@ -1,7 +1,7 @@
 @echo off
 
 if "%~1"=="" (
-    echo Usage: auto_push.bat branch-name "Commit message"
+    echo Usage: auto_push.bat "branch-name" "Commit message"
     exit /b 1 
 )
 
@@ -20,7 +20,7 @@ echo Adding the changes...
 git add .
 
 echo Commiting...
-git commit -m %TITLE%
+git commit -m "%TITLE%"
 
 echo Pushing branch...
 git push
