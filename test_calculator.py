@@ -12,6 +12,9 @@ class TestCalculator(unittest.TestCase):
 
     def test_add_mixed_numbers(self):
         self.assertEqual(add(-2, 3), 1)
+    
+    def test_add_two_numbers(self):
+        self.assertEqual(add(4, 4), 8)
 
 if __name__ == '__main__':
     unittest.main()
