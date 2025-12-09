@@ -13,6 +13,9 @@ if "%TITLE%"=="" (
     exit /b 1 
 )
 
+echo Pull
+git pull
+
 echo Checking the status...
 git status
 
