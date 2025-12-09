@@ -57,7 +57,7 @@ jobs:
     
     - name: Run Test
       run: |
-        pytestpytest --cov=./ --cov-report=xml
+        pytest --cov=./ --cov-report=xml
 
   deploy:
     name: Deploy Stage
